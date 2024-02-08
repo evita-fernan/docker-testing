@@ -2,7 +2,7 @@ version: '2'
 
 services:
   app:
-    image: gvilarino/docker-testing
+    image: evitafernandez/docker-testing
     environment:
       MONGO_URL: "mongodb://db/test"
     depends_on:
